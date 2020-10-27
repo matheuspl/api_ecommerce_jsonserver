@@ -1,0 +1,108 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Caneta Bic Preta",
+      "valor": 5.89,
+      "disponivel": true
+    },
+    {
+      "id": 2,
+      "nome": "Jogo de canetas",
+      "valor": 22.22,
+      "disponivel": true
+    },
+    {
+      "id": 3,
+      "nome": "Travesseiro",
+      "valor": 22,
+      "disponivel": true
+    },
+    {
+      "id": 4,
+      "nome": "Tesoura",
+      "valor": 2.5,
+      "disponivel": true
+    },
+    {
+      "id": 5,
+      "nome": "Super Cola",
+      "valor": 12,
+      "disponivel": true
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Matheus Lino",
+      "data-cadastro": "26/10/2020",
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "nome": "Joãozinho",
+      "data-cadastro": "27/10/2020",
+      "status": "Ativo"
+    },
+    {
+      "nome": "Testando novo Client",
+      "status": "Ativo",
+      "data-cadastro": "27/10/2020",
+      "id": 3
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "data-cadastro": "27/10/2020 13:50:55",
+      "idCliente": "1",
+      "status-entrega": "Entregue",
+      "produtos": [
+        {
+          "produto": {
+            "id": 3,
+            "nome": "Travesseiro",
+            "valor": 22,
+            "disponivel": true
+          },
+          "quantidade": 1
+        },
+        {
+          "produto": {
+            "id": 5,
+            "nome": "Super Cola",
+            "valor": 12,
+            "disponivel": true
+          },
+          "quantidade": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "data-cadastro": "27/10/2020 13:50:55",
+      "idCliente": "2",
+      "status-entrega": "Entregue",
+      "produtos": [
+        {
+          "produto": {
+            "id": 1,
+            "nome": "Caneta Bic Preta",
+            "valor": 5.89,
+            "disponivel": true
+          },
+          "quantidade": 4
+        },
+        {
+          "produto": {
+              "id": 2,
+              "nome": "Jogo de canetas",
+              "valor": 22.22,
+              "disponivel": true
+            },
+          "quantidade": 3
+        }
+      ]
+    }
+  ]
+}

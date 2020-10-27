@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic Preta",
+      "price": 5.89
+    },
+    {
+      "name": "Produto teste",
+      "price": 22.22,
+      "id": 6
+    },
+    {
+      "name": "Alterado no form",
+      "price": "22",
+      "id": 7
+    },
+    {
+      "name": "Tesoura",
+      "price": "2.5",
+      "id": 8
+    },
+    {
+      "name": "teste",
+      "price": "12",
+      "id": 9
+    }
+  ]
+}
