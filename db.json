@@ -95,11 +95,11 @@
         },
         {
           "produto": {
-              "id": 2,
-              "nome": "Jogo de canetas",
-              "valor": 22.22,
-              "disponivel": true
-            },
+            "id": 2,
+            "nome": "Jogo de canetas",
+            "valor": 22.22,
+            "disponivel": true
+          },
           "quantidade": 3
         }
       ]
